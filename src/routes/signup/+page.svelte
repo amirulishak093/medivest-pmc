@@ -50,7 +50,7 @@
 
 		<form method="post"
 			use:enhance={() => {}} 
-			enctype="multipart/form-data"
+			
 		
 			class="max-w-md mx-auto mt-8">
 			<div class="mb-5">
