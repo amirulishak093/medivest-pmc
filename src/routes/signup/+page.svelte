@@ -5,6 +5,8 @@
 	import { enhance } from '$app/forms';
 	// import { step } from "$lib/store";
 
+	export const prerender = false;
+
 	let cameraImage: HTMLImageElement | null;
 	let cameraInput: HTMLInputElement | null;
 	let showImage = false;

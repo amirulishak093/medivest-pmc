@@ -22,8 +22,6 @@ model User {
   name              String
   phoneNumber       String   @unique
   companyName       String
-  businessCardImage String
+  businessCardImage String?
   createdAt         DateTime @default(now())
 }
-
-
