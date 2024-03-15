@@ -11,9 +11,9 @@ export const actions: Actions = {
         const phoneNumber = formData.get('phoneNumber') as string;
         const companyName = formData.get('companyName') as string;
 
-        const cameraImage = formData.get('cameraImage') as File;
+        // const cameraImage = formData.get('cameraImage') as File;
 
-        let businessCardImage = ''
+        // let businessCardImage
 
         try {
         
@@ -25,16 +25,16 @@ export const actions: Actions = {
             //     businessCardImage = blobImage.url
             // }
 
-            await createUser({
+            const newUser = await createUser({
                 data: {
                     name,
                     phoneNumber,
                     companyName,
-                    businessCardImage 
+                    // businessCardImage 
                 }
             })
 
-            console.log(formData);
+            console.log(newUser)
     
 
             return {
