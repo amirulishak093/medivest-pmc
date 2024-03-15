@@ -13,17 +13,17 @@ export const actions: Actions = {
 
         const cameraImage = formData.get('cameraImage') as File;
 
-        let businessCardImage
+        let businessCardImage = ''
 
         try {
         
-            if (cameraImage) {
-                const blobImage = await put(cameraImage.name, cameraImage, {
-                    access: 'public'
-                })
+            // if (cameraImage) {
+            //     const blobImage = await put(cameraImage.name, cameraImage, {
+            //         access: 'public'
+            //     })
 
-                businessCardImage = blobImage.url
-            }
+            //     businessCardImage = blobImage.url
+            // }
 
             await createUser({
                 data: {
