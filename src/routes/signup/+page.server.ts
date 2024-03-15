@@ -33,6 +33,8 @@ export const actions: Actions = {
                     businessCardImage 
                 }
             })
+
+            console.log(formData);
     
 
             return {
