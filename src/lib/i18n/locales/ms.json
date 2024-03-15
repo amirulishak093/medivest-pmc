@@ -1,0 +1,35 @@
+{
+	"intro": {
+		"title": "Selamat Datang",
+		"subhtitle": "Teks 2",
+		"actions": {
+			"start": "Jom Mula"
+		},
+		"notice": "Kami memastikan maklumat peribadi anda sulit, selamat dan terjamin"
+	},
+	"signup": {
+		"title": "Selamat datang ke PMC",
+		"subtitle": "Sila isi borang dibawah",
+		"actions": {
+			"signup": "Daftar"
+		},
+		"form": {
+			"name": {
+				"label": "Nama",
+				"placeholder": "Nama anda"
+			},
+			"phoneNumber": {
+				"label": "Nombor Telefon",
+				"placeholder": "Nombor telefon anda"
+			},
+			"companyName": {
+				"label": "Nama syarikat",
+				"placeholder": "Nama syarikat anda"
+			},
+			"photo": {
+				"placeholder": "Ambil gambar business card anda" ,
+				"optional": "Pilihan"
+			}
+		}
+	}
+}

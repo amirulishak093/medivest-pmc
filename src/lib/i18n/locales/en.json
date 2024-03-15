@@ -1,0 +1,35 @@
+{
+    "intro": {
+		"title": "Welcome",
+		"subtitle": "Text 1",
+		"actions": {
+			"start": "Start Now"
+		},
+		"notice": "We ensure your personal information is confidential, secure, and guaranteed"
+	},
+	"signup": {
+		"title": "Welcome to PMC",
+		"subtitle": "Please fill in the form below",
+		"actions": {
+			"signup": "Sign up"
+		},
+		"form": {
+			"name": {
+				"label": "Name",
+				"placeholder": "Your name"
+			},
+			"phoneNumber": {
+				"label": "Phone number",
+				"placeholder": "Your phone number"
+			},
+			"companyName": {
+				"label": "Company name",
+				"placeholder": "Your company name"
+			},
+			"photo": {
+				"placeholder": "Take a photo of your business card",
+				"optional": "Optional"
+			}
+		}
+	}
+}
