@@ -50,8 +50,7 @@
 
 		<form method="post"
 			use:enhance={() => {}} 
-			
-		
+			enctype="multipart/form-data"
 			class="max-w-md mx-auto mt-8">
 			<div class="mb-5">
 				<label for="name" class="block mb-2 text-sm font-medium text-gray-800">{$_('signup.form.name.label')}</label>
