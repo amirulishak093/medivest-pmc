@@ -15,6 +15,8 @@ export const actions: Actions = {
 
         // let businessCardImage
 
+        console.log("Chicken")
+
         try {
         
             // if (cameraImage) {
@@ -34,7 +36,7 @@ export const actions: Actions = {
                 }
             })
 
-            console.log(newUser)
+
     
 
             return {
