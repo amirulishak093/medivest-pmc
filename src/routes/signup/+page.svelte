@@ -2,10 +2,10 @@
     import { _ } from 'svelte-i18n';
 	import { UserSolid, MobilePhoneSolid, BriefcaseSolid, ProfileCardSolid, } from 'flowbite-svelte-icons';
 	import LocaleSwitcher from "$lib/components/LocaleSwitcher.svelte";
-	import { enhance } from '$app/forms';
+	import { applyAction, enhance } from '$app/forms';
 	// import { step } from "$lib/store";
 
-	export const prerender = false;
+	// export const prerender = false;
 
 	let cameraImage: HTMLImageElement | null;
 	let cameraInput: HTMLInputElement | null;
@@ -49,7 +49,11 @@
 		</div>
 
 		<form method="post"
-			use:enhance={() => {}} 
+			use:enhance={() => {
+				return async ({ result }) => {
+					await applyAction(result);
+				};
+			}} 
 			enctype="multipart/form-data"
 			class="max-w-md mx-auto mt-8">
 			<div class="mb-5">
