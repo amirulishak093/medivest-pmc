@@ -23,7 +23,11 @@ export const actions: Actions = {
                  })
 
                  businessCardImage = blobImage.url
+
+                 console.log(businessCardImage);
             }
+
+  
 
             const newUser = await createUser({
                 data: {
